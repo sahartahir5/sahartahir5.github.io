@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sahar Tahir | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="container">
+    <h1>Sahar Tahir</h1>
+    <p class="subtitle">Computer Science Student | Fremont, CA</p>
+    <div class="links">
+      <a href="https://linkedin.com/in/sahar-tahir-96ab38385" target="_blank">LinkedIn</a>
+      <a href="https://github.com/USERNAME" target="_blank">GitHub</a>
+      <a href="mailto:saharqureshi158@gmail.com">Email</a>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About</h2>
+      <p>
+        I’m a Computer Science student focused on building strong programming fundamentals and
+        practical projects in Python, C/C++, and Linux. I’m currently seeking internship opportunities
+        where I can learn, contribute, and grow as a developer.
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <ul class="grid">
+        <li>Python</li>
+        <li>C / C++</li>
+        <li>Linux</li>
+        <li>Git & GitHub</li>
+        <li>VS Code</li>
+        <li>Problem Solving</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>Smart File Organizer (Python)</h3>
+        <p>Automates file organization by categorizing files by extension and moving them into folders.</p>
+        <p class="tags">Python • os • shutil</p>
+      </div>
+
+      <div class="project">
+        <h3>Student Grade Manager (Python)</h3>
+        <p>Command-line app to manage students and grades, calculate averages, and save data to JSON.</p>
+        <p class="tags">Python • Data Structures • JSON</p>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:saharqureshi158@gmail.com">saharqureshi158@gmail.com</a></p>
+      <p>LinkedIn: <a href="https://linkedin.com/in/sahar-tahir-96ab38385" target="_blank">linkedin.com/in/sahar-tahir-96ab38385</a></p>
+      <p>GitHub: <a href="https://github.com/USERNAME" target="_blank">github.com/USERNAME</a></p>
+    </section>
+  </main>
+
+  <footer class="container footer">
+    <p>© <span id="year"></span> Sahar Tahir</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
